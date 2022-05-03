@@ -10,4 +10,4 @@ Tested Platform:
 
 Dependencies:
 * python : 3.8
-* opencv-python: 4.5.4.60
+* opencv-python: 4.5.4
