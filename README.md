@@ -1,4 +1,4 @@
-# Thermal_Camera_on_OpenCV
+# Thermal_Camera_with_OpenCV
 
 This is a demonstration code for USB Video Class thermal camera built with OpenCV on Python
 
