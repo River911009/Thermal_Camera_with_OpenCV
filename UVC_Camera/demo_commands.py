@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-  Name:    main_basic_demo.py
+  Name:    demo_commands.py
   Version: v1.0
   License: GPL
   Author:  Riviere
