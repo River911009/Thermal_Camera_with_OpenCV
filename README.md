@@ -1,6 +1,6 @@
 # Thermal_Camera_SDK
 
-This is a demonstration code for USB thermal camera built with OpenCV on Python. Based on GoalTop camera module.
+This is a demonstration code for USB thermal camera built with OpenCV on Python. Based on [GoalTop](https://www.gtc.com.tw/en) camera module.
 
 # File Description
 
@@ -27,8 +27,4 @@ Dependencies:
 ----
 
 # To be modify on next push
-<<<<<<< HEAD
-- [] (camera.py).openCamera(): add auto detect os platform to set VideoCapture param with CAP_MSMF or other.
-=======
 - [ ] (camera.py).openCamera(): add auto detect os platform to set VideoCapture param with CAP_MSMF or other.
->>>>>>> 2a9377ed49cb79949310700f553d920fba493ab0
