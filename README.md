@@ -27,4 +27,4 @@ Dependencies:
 ----
 
 # To be modify on next push
-[] (camera.py).openCamera(): add auto detect os platform to set VideoCapture param with CAP_MSMF or other.
+- [] (camera.py).openCamera(): add auto detect os platform to set VideoCapture param with CAP_MSMF or other.
