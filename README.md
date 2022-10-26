@@ -8,6 +8,7 @@ This is a demonstration code for USB thermal camera built with OpenCV on Python.
 |---------|------------------|-------------|
 | License |  | This SDK developed with GPL license, any change or fork have to follow GPL rule. |
 | CDC_Module/main.py | GTM016A_TYPE_C | This script is a basic demonstration code to get temperature array from GTM016A type c series. |
+| CDC_Module/result.png |  | The result from running main.py |
 | HID_Module/HidDeviceSdk_xxx.dll |  | Those DLL are provided by Prolific. For more information, please visit [Prolific](https://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41&showlevel=0017-0037-0041). |
 | HID_Module/main.py | GTM016A_I2C | This script is a basic demonstration code to get temperature array from GTM016A module via PL23C3 I2C bridge. Because the DLL, this example code works on Windows only. |
 | Hid_Module/result.png |  | The result from running main.py |
