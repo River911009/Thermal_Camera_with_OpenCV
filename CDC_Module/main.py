@@ -17,7 +17,7 @@ import serial
 from time import sleep
 
 # GTM016A port name
-GTM016A_PORT='COM61' # change this port name to yours.
+GTM016A_PORT='xxxx' # change 'xxxx' to your serial port name.
 # GTM016A get device ID command
 GET_DEVICE_ID=[0]
 # GTM016A get temperature image command
