@@ -64,6 +64,7 @@ rdata_size=1
 reg_address=0
 wData.raw=pack('B',reg_address)
 module.I2CWriteRead(handle,byref(wData),1,byref(rData),rdata_size,byref(rLength),100)
+# decode data
 temp=list(rData.raw)[:rdata_size]
 GTM016A_id=temp[0]
 print("Get Device ID, return: %d\n"%(GTM016A_id))
@@ -78,6 +79,7 @@ rdata_size=2
 reg_address=20
 wData.raw=pack('B',reg_address)
 module.I2CWriteRead(handle,byref(wData),1,byref(rData),rdata_size,byref(rLength),100)
+# decode data
 temp=list(rData.raw)[:rdata_size]
 pcb_temperature=(temp[0]*256+temp[1])/100
 print("Get PCB Temp, return: %.2f\n"%(pcb_temperature))
@@ -92,8 +94,8 @@ rdata_size=512
 reg_address=100
 wData.raw=pack('B',reg_address)
 module.I2CWriteRead(handle,byref(wData),1,byref(rData),rdata_size,byref(rLength),100)
-temp=list(rData.raw)[:rdata_size]
 # decode and print temperature array in 2D
+temp=list(rData.raw)[:rdata_size]
 print("Get Temp Image, return:")
 for y in range(16):
   for x in range(16):
